@@ -80,3 +80,29 @@ nav li {
 header .flex {
   justify-content: flex-end;
 }
+
+/* Services Section */
+
+.services {
+  display: flex;
+  justify-content: center;
+}
+
+.services .item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 5rem;
+  height: 8rem;
+  margin: 3rem;
+  text-align: center;
+}
+
+.services .item img {
+  width: 5rem;
+}
+
+.services .item:first-child img {
+  width: 3.5rem;
+}
